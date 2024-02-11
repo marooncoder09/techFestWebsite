@@ -19,3 +19,24 @@ coverage
 # ignore .pack files
 .pack
 # ignore .pack files
+
+
+# Next.js build output
+.next/
+
+# Build-related files
+*.hot-update.json
+*.hot-update.js
+
+# Cache files
+.next/cache/
+
+# Specific static webpack files (adjust as necessary)
+.next/static/webpack/*.hot-update.js
+.next/static/webpack/*.hot-update.json
+
+# Other files and directories to ignore
+# node_modules/
+# .env
+# .DS_Store
+# etc.

@@ -94,7 +94,7 @@ export default function Navbar(): JSX.Element {
                             ))}
 
                         </ul>
-                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="/" download="Deri Kurniawan Resume">Register</a>
+                        <a className='px-6 py-2 text-white gradient-btn rounded-xl' href="/" >Brochure</a>
                     </div>
                     {/* mobile hamburger menu */}
                     <div className="z-50 md:hidden">

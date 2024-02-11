@@ -106,9 +106,9 @@ export default function SectionLetsConnect() {
                         height={530}
                         priority
                     />
-                    {/* {socialMediaLinks.map((socialMediaLink, index) => (
+                    {socialMediaLinks.map((socialMediaLink, index) => (
                         <AnimatedImage key={index.toString()} {...socialMediaLink} />
-                    ))} */}
+                    ))}
                     <div className='flex flex-row flex-wrap items-center justify-center gap-3 mt-4 lg:hidden'>
                         {/* <AnimatedImage initial={{ y: 50, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5, delay: 0.4 }} className="z-[1] hover:cursor-pointer w-[100px] h-[100px]" src={assets.home.letsConnect.linkedin} alt='' width={100} height={100} tabIndex={0} onClick={() => window.open('https://linkedin.com/in/deri-kurniawan', '_blank')} /> */}
                         {/* <AnimatedImage initial={{ y: -50, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5, delay: 0.8 }} className="z-[1] hover:cursor-pointer w-[100px] h-[100px]" src={assets.home.letsConnect.dribble} alt='' width={100} height={100} tabIndex={0} onClick={() => window.open('https://dribbble.com/deri-kurniawan', '_blank')} /> */}
