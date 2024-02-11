@@ -75,12 +75,12 @@ export default function SectionTechnologyStack() {
     return (
         <section ref={ref} className={`safe-x-padding ${styles.sectionDistance}`}>
             <div className='text-center'>
-                <motion.h2 initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.sectionTitle}>OUR SPONSORS</motion.h2>
+                {/* <motion.h2 initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.5 }} className={styles.sectionTitle}>OUR SPONSORS</motion.h2> */}
                 {/* <motion.p initial={{ y: 100, opacity: 0 }} animate={inView ? { y: 0, opacity: 1 } : {}} transition={{ duration: 0.7 }} className={`${styles.sectionDescription} max-w-[960px] mx-auto`}>I are concerned about security and performance for my client. That&apos;s why I always keep updating and use best technologies in a product</motion.p> */}
             </div>
             <div className='flex items-center justify-center mt-12'>
                 <div className='flex flex-row gap-[50px] max-w-[864px] flex-wrap justify-center items-center'>
-                    {technologyStack.map((item, index) => (
+                    {/* {technologyStack.map((item, index) => (
                         <div key={index.toString()} className='relative h-full'>
                             <motion.div
                                 className="flex justify-center items-center w-[100px] h-[100px] transition-all duration-150 ease-in-out"
@@ -117,7 +117,7 @@ export default function SectionTechnologyStack() {
                                 </Link>
                             </motion.div>
                         </div>
-                    ))}
+                    ))} */}
                 </div>
             </div >
         </section >

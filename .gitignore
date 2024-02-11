@@ -1,0 +1,21 @@
+# ignore node modules
+node_modules
+# ignore build files
+build
+# ignore coverage reports
+coverage
+# ignore .env file
+.env
+# ignore .env file
+.env.local
+# ignore .env file
+.env.development.local
+# ignore .env file
+.env.test.local
+# ignore .env file
+.env.production.local
+# ignore .env file
+.env.local
+# ignore .pack files
+.pack
+# ignore .pack files

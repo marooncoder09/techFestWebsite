@@ -262,53 +262,41 @@ export default function SectionMyLatestProject() {
                                                     </motion.div>
                                                 </div>
                                                 <div className='absolute top-0 bottom-0 left-0 right-0 hidden transition-all duration-300 gap-y-2 group-hover:block bg-gray/10 backdrop-blur-sm rounded-2xl'>
-                                                    <div className='flex flex-col items-center justify-center w-full h-full select-none lg:select-auto'>
-                                                        <p className="p-8 text-xl font-bold text-center transition-all duration-150 ease-in-out line-clamp-1">{item.title}</p>
-                                                        <div className='flex flex-row gap-4 text-3xl'>
-                                                            {item.repositoryUrl && (
-                                                                <Link
-                                                                    className="p-4 transition-all duration-150 ease-in-out bg-gray rounded-2xl hover:text-white hover:bg-gradient-to-r hover:from-primary hover:to-secondary"
-                                                                    href={{
-                                                                        pathname: item.repositoryUrl,
-                                                                        query: {
-                                                                            utm_source: 'deri.my.id',
-                                                                            utm_medium: 'campaign',
-                                                                            utm_campaign: 'portfolio'
-                                                                        }
-                                                                    }}
-                                                                    target='_blank'
-                                                                    title="Repository"
-                                                                >
-                                                                    {tabs[activeTab].name.toLowerCase() === "project" ? (
-                                                                        <BsGithub />
-                                                                    ) : (
-                                                                        <FiFigma />
-                                                                    )}
-                                                                </Link>
-                                                            )}
-                                                            {item.demoUrl && (
-                                                                <Link
-                                                                    className="p-4 transition-all duration-300 ease-in-out bg-gray rounded-2xl hover:text-white hover:bg-gradient-to-r hover:from-primary hover:to-secondary"
-                                                                    href={{
-                                                                        pathname: item.demoUrl,
-                                                                        query: {
-                                                                            utm_source: 'deri.my.id',
-                                                                            utm_medium: 'campaign',
-                                                                            utm_campaign: 'portfolio'
-                                                                        }
-                                                                    }}
-                                                                    target='_blank'
-                                                                    title="Demo"
-                                                                >
-                                                                    <IoMdOpen />
-                                                                </Link>
-                                                            )}
-                                                            <Link className="p-4 transition-all duration-300 ease-in-out bg-gray rounded-2xl hover:text-white hover:bg-gradient-to-r hover:from-primary hover:to-secondary" href={`/project/${item.slug}`} title={`Detail of ${item.title}`}>
-                                                                <BsInfoCircle />
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                            
+    <div className='flex flex-col items-center justify-center w-full h-full select-none lg:select-auto'>
+        <p className="p-8 text-xl font-bold text-center transition-all duration-150 ease-in-out line-clamp-1">{item.title}</p>
+        <div className='flex flex-row gap-4 text-3xl'>
+            {/* {item.repositoryUrl && (
+                <Link
+                    className="p-4 transition-all duration-150 ease-in-out bg-gray rounded-2xl hover:text-white hover:bg-gradient-to-r hover:from-primary hover:to-secondary"
+                    href={{
+                        pathname: item?.repositoryUrl,
+                        query: {
+                            utm_source: 'deri.my.id',
+                            utm_medium: 'campaign',
+                            utm_campaign: 'portfolio'
+                        }
+                    }}
+                    target='_blank'
+                    title="Repository"
+                >
+                    {tabs[activeTab].name.toLowerCase() === "project" ? (
+                        <BsGithub />
+                    ) : (
+                        <FiFigma />
+                    )}
+                </Link>
+            )} */}
+          
+            {/* Commented out or removed the Link that contains the BsInfoCircle icon */}
+            {/* <Link className="p-4 transition-all duration-300 ease-in-out bg-gray rounded-2xl hover:text-white hover:bg-gradient-to-r hover:from-primary hover:to-secondary" href={`/project/${item.slug}`} title={`Detail of ${item.title}`}>
+                <BsInfoCircle />
+            </Link> */}
+        </div>
+    </div>
+</div>
+
+
                                             </motion.div>
                                         )
                                     )

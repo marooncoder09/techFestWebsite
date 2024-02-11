@@ -107,7 +107,7 @@ export default function SectionHero(): JSX.Element {
             >
               Gautam Buddha University
             </span>
-              {' Lorem Ipsum doloring sit amet, consectetur adipiscing elit. (write content here)'}
+              {"The vibrant festival of the University, tailored to the needs of the students, is a platform for the students to showcase their talents and skills"}
           </motion.p>
                 </div>
                 {/* second */}

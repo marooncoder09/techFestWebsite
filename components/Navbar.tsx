@@ -13,17 +13,17 @@ const navlinks = [
         name: "Home",
         href: "/",
     },
-    {
-        name: "About Us",
-        href: "/blog",
-    },
-    {
-        name: "Events",
-        href: "/project",
-    },
+    // {
+    //     name: "About Us",
+    //     href: "/blog",
+    // },
+    // {
+    //     name: "Events",
+    //     href: "/project",
+    // },
     {
         name: "Sponsor Us",
-        href: "/sopnsorUS",
+        href: "https://forms.gle/U4wCRWyqg5RUkWUg7",
     }
 ];
 
